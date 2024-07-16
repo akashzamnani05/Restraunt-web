@@ -1,0 +1,84 @@
+/* Add these styles to style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('./images/restraunt1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.restaurant-image {
+    flex: 1;
+}
+
+.login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #b33c00;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b33c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d35400;
+}
